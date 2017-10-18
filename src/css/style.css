@@ -1,2 +1,68 @@
-body {
-  background-color: #ebf1f5; }
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800");
+h1 {
+  font-size: 10vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
+
+#header-section {
+  background-color: #7EC9AC;
+  height: 75vh;
+  display: flex;
+  align-items: center; }
+
+.btn-primary {
+  background-color: #058ED9;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 20px; }
+
+.contact-section {
+  min-height: 175px;
+  text-align: center;
+  padding-top: 2ch;
+  color: #565656; }
+
+.header-text {
+  text-align: center;
+  color: white; }
+
+#work-section-personal, #work-section-home, #work-section-commercial {
+  text-align: center;
+  min-height: 150px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color: white; }
+
+#work-section-personal {
+  background-color: #A1D5C1; }
+
+#work-section-home {
+  background-color: #7EC9AC; }
+
+#work-section-commercial {
+  background-color: #A1D5C1; }
+
+.work-icons {
+  height: 15vh; }
+
+.about-section {
+  text-align: center;
+  padding: 3vh;
+  color: #565656; }
